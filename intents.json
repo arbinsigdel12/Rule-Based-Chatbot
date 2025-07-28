@@ -1,0 +1,505 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Is anyone there?", "Hey", "Good day"],
+      "responses": ["Namaste! How can I assist you in exploring Nepal today?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Catch you later"],
+      "responses": ["Goodbye! Have a great journey in Nepal!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Much appreciated", "Thanks a lot"],
+      "responses": ["You're welcome! Happy to help with your Nepal adventure."]
+    },
+    {
+      "tag": "popular_places_kathmandu",
+      "patterns": ["What are the top places to visit in Kathmandu?", "Things to see in Kathmandu", "Must visit places in Kathmandu"],
+      "responses": ["Some top spots in Kathmandu include Swayambhunath, Boudhanath Stupa, Patan Durbar Square, and Pashupatinath Temple."]
+    },
+    {
+      "tag": "trekking_everest",
+      "patterns": ["Tell me about Everest Base Camp Trek", "How to trek to Everest?", "Everest trek info", "Everest base camp"],
+      "responses": ["The Everest Base Camp Trek is a 12-14 day trek starting from Lukla, passing through Namche Bazaar and Tengboche, ending at the base of Mount Everest."]
+    },
+    {
+      "tag": "visa_info",
+      "patterns": ["How do I get a visa for Nepal?", "Nepal visa process", "Tourist visa for Nepal"],
+      "responses": ["Tourists can get a visa on arrival at Tribhuvan International Airport or apply at a Nepalese embassy. Make sure your passport is valid for at least 6 months."]
+    },
+    {
+      "tag": "best_time_to_visit",
+      "patterns": ["What is the best time to visit Nepal?", "When should I travel to Nepal?", "Best month to go to Nepal"],
+      "responses": ["The best time to visit Nepal is during spring (March–May) and autumn (September–November) for clear skies and pleasant weather."]
+    },
+    {
+      "tag": "pokhara_attractions",
+      "patterns": ["What to do in Pokhara?", "Places to see in Pokhara", "Pokhara sightseeing"],
+      "responses": ["Pokhara offers Phewa Lake, World Peace Pagoda, Davis Falls, and paragliding adventures."]
+    },
+    {
+      "tag": "transport_kathmandu_pokhara",
+      "patterns": ["How to go from Kathmandu to Pokhara?", "Travel between Kathmandu and Pokhara", "Bus or flight to Pokhara"],
+      "responses": ["You can travel from Kathmandu to Pokhara by tourist bus (6-8 hours) or a short 25-minute flight."]
+    },
+    {
+      "tag": "currency_info",
+      "patterns": ["What is the currency in Nepal?", "Nepal money", "Exchange rate in Nepal"],
+      "responses": ["The currency of Nepal is Nepalese Rupee (NPR). Most places accept cash, and ATMs are widely available in major cities."]
+    },
+    {
+      "tag": "lumbini_info",
+      "patterns": ["Tell me about Lumbini", "Where was Buddha born?", "Lumbini attractions"],
+      "responses": ["Lumbini is the birthplace of Lord Buddha and a UNESCO World Heritage Site. Visit the Maya Devi Temple and sacred garden."]
+    },
+    {
+      "tag": "language_spoken",
+      "patterns": ["What language do they speak in Nepal?", "Languages in Nepal", "Do people speak English in Nepal?"],
+      "responses": ["The official language is Nepali. English is widely spoken in tourist areas."]
+    },
+    {
+      "tag": "food_nepal",
+      "patterns": ["What food should I try in Nepal?", "Famous Nepali dishes", "Traditional food in Nepal"],
+      "responses": ["Try momos, dal bhat, sel roti, and Newari cuisine. Nepali food is flavorful and hearty."]
+    },
+    {
+      "tag": "weather_kathmandu",
+      "patterns": ["What's the weather like in Kathmandu?", "Current temperature in Kathmandu", "Kathmandu climate"],
+      "responses": ["Kathmandu has a temperate climate. Summers are warm, winters are cool. Check a weather app for live updates."]
+    },
+    {
+      "tag": "trekking_permit",
+      "patterns": ["Do I need a permit to trek in Nepal?", "Trekking permit Nepal", "How to get trekking permit?"],
+      "responses": ["Yes, you need a TIMS card and sometimes special permits depending on the region, like the Annapurna or Everest region."]
+    },
+    {
+      "tag": "shopping_nepal",
+      "patterns": ["What can I buy in Nepal?", "Souvenirs from Nepal", "Shopping in Thamel"],
+      "responses": ["You can buy handicrafts, singing bowls, pashmina shawls, thangka paintings, and trekking gear in places like Thamel."]
+    },
+    {
+      "tag": "adventure_sports",
+      "patterns": ["Any adventure sports in Nepal?", "Can I do bungee jumping in Nepal?", "Adventure activities in Nepal"],
+      "responses": ["Nepal offers paragliding, bungee jumping, white-water rafting, zip-lining, and mountain biking."]
+    },
+    {
+      "tag": "chitwan_safari",
+      "patterns": ["Tell me about Chitwan National Park", "Can I go on a safari in Nepal?", "Wildlife in Chitwan"],
+      "responses": ["Chitwan National Park offers jungle safaris where you can see rhinos, tigers, elephants, and crocodiles."]
+    },
+    {
+      "tag": "mountain_flights",
+      "patterns": ["Can I see Mount Everest without trekking?", "Mountain flight in Nepal", "Everest flight tours"],
+      "responses": ["Yes, you can take a scenic mountain flight from Kathmandu to see Everest and other Himalayan peaks up close."]
+    },
+    {
+      "tag": "safety_nepal",
+      "patterns": ["Is Nepal safe for tourists?", "Is it safe to travel in Nepal?", "Nepal travel safety"],
+      "responses": ["Nepal is generally safe for tourists. Be cautious in remote areas and during treks, and follow local advice."]
+    },
+    {
+      "tag": "annapurna_trek",
+      "patterns": ["Tell me about the Annapurna Circuit", "Annapurna trekking info", "Annapurna trek details"],
+      "responses": ["The Annapurna Circuit is a classic trek that takes 15–20 days, offering stunning mountain views, cultural villages, and high mountain passes like Thorong La."]
+    },
+    {
+      "tag": "internet_availability",
+      "patterns": ["Is there internet in Nepal?", "Can I get Wi-Fi in Nepal?", "How is the internet in Nepal?"],
+      "responses": ["Most hotels, cafes, and cities in Nepal offer Wi-Fi. Mobile data is also widely available through local SIM cards."]
+    },
+    {
+      "tag": "local_transport",
+      "patterns": ["How do I travel within Nepal?", "Local transportation in Nepal", "Can I take a bus or taxi in Nepal?"],
+      "responses": ["Local buses, microbuses, and taxis are available in cities. Tourist buses and flights are common for intercity travel."]
+    },
+    {
+      "tag": "culture_tradition",
+      "patterns": ["Tell me about Nepali culture", "Nepal customs and traditions", "What are cultural values in Nepal?"],
+      "responses": ["Nepal has a rich cultural heritage with Hindu and Buddhist influences. Respect for elders, traditional festivals, and hospitality are key values."]
+    },
+    {
+      "tag": "festivals_nepal",
+      "patterns": ["Famous festivals in Nepal", "Which festivals are celebrated in Nepal?", "Nepal festival calendar"],
+      "responses": ["Popular festivals include Dashain, Tihar, Holi, Buddha Jayanti, and Indra Jatra. Each has unique cultural significance."]
+    },
+    {
+      "tag": "homestay_experience",
+      "patterns": ["Can I stay in a homestay in Nepal?", "Local homestays in Nepal", "Homestay recommendations"],
+      "responses": ["Yes, many rural and trekking regions offer homestays where you can experience Nepali family life and hospitality."]
+    },
+    {
+      "tag": "altitude_sickness",
+      "patterns": ["What is altitude sickness?", "How to avoid altitude sickness?", "Is it dangerous in Nepal treks?"],
+      "responses": ["Altitude sickness can occur above 2,500m. Ascend slowly, stay hydrated, and rest if symptoms occur. Consult a doctor before high-altitude treks."]
+    },
+    {
+      "tag": "budget_travel",
+      "patterns": ["Is Nepal budget-friendly?", "Can I travel cheaply in Nepal?", "Low-cost travel tips for Nepal"],
+      "responses": ["Nepal is great for budget travelers. Affordable accommodation, food, and local transport options are widely available."]
+    },
+    {
+      "tag": "nepali_currency_exchange",
+      "patterns": ["Where can I exchange money in Nepal?", "Can I use USD or INR in Nepal?", "Money exchange in Kathmandu"],
+      "responses": ["You can exchange currency at airports, banks, and money exchange counters. USD and INR are accepted for exchange but not for direct use."]
+    },
+    {
+      "tag": "nightlife_kathmandu",
+      "patterns": ["How is the nightlife in Kathmandu?", "Bars and clubs in Kathmandu", "Where to party in Kathmandu?"],
+      "responses": ["Thamel is the hub for nightlife in Kathmandu, with bars, live music, and restaurants open till late."]
+    },
+    {
+      "tag": "getting_to_nepal",
+      "patterns": ["How can I reach Nepal?", "Flights to Nepal", "Travel routes to Nepal"],
+      "responses": ["Nepal is accessible by air via Tribhuvan International Airport in Kathmandu. There are also land border crossings from India and China."]
+    },
+    {
+      "tag": "health_tips",
+      "patterns": ["Do I need vaccinations for Nepal?", "Health precautions for Nepal travel", "Travel health tips Nepal"],
+      "responses": ["Vaccinations like Hepatitis A, Typhoid, and Tetanus are recommended. Carry water purification tablets and avoid raw food."]
+    },
+    {
+      "tag": "spiritual_sites",
+      "patterns": ["Sacred places in Nepal", "Spiritual travel in Nepal", "Visit temples and monasteries in Nepal"],
+      "responses": ["Nepal is home to Pashupatinath Temple, Boudhanath Stupa, Muktinath, and many Buddhist monasteries in the Himalayas."]
+    },
+    {
+      "tag": "luxury_travel",
+      "patterns": ["Can I travel in luxury in Nepal?", "Luxury hotels in Nepal", "Luxury tourism Nepal"],
+      "responses": ["Yes, Nepal offers 5-star hotels, private treks, and luxury jungle lodges in cities like Kathmandu, Pokhara, and Chitwan."]
+    },
+    {
+      "tag": "nepal_map",
+      "patterns": ["Can you show me a map of Nepal?", "Nepal map", "Map of tourist spots in Nepal"],
+      "responses": ["You can find detailed maps on the official Nepal tourism website or use Google Maps for city and trekking routes."]
+    },
+    {
+      "tag": "solo_female_travel",
+      "patterns": ["Is Nepal safe for solo female travelers?", "Solo woman travel in Nepal", "Can I travel alone as a woman?"],
+      "responses": ["Yes, many solo female travelers visit Nepal. Stay in trusted guesthouses, avoid isolated areas at night, and inform others of your plans."]
+    },
+    {
+      "tag": "guides_porters",
+      "patterns": ["Do I need a guide in Nepal?", "Hiring a porter in Nepal", "Trek with guide or solo?"],
+      "responses": ["Guides and porters are highly recommended for treks. They provide local knowledge and carry your gear, improving safety and comfort."]
+    },
+    {
+      "tag": "trek_duration",
+      "patterns": ["How long are treks in Nepal?", "Duration of trekking routes", "Shortest treks in Nepal"],
+      "responses": ["Treks range from 2-day hikes like Dhampus to 3-week circuits like Everest and Annapurna. Choose based on time and fitness."]
+    },
+    {
+      "tag": "heritage_sites",
+      "patterns": ["UNESCO sites in Nepal", "Cultural heritage Nepal", "Famous heritage places"],
+      "responses": ["Nepal has 10 UNESCO World Heritage Sites including Kathmandu Durbar Square, Swayambhunath, Lumbini, and Bhaktapur."]
+    },
+    {
+      "tag": "accommodation_options",
+      "patterns": ["Where can I stay in Nepal?", "Hotel types in Nepal", "Budget or luxury accommodation"],
+      "responses": ["Nepal offers a range of options: hostels, guesthouses, hotels, lodges, and luxury resorts depending on your budget and location."]
+    },
+     {
+      "tag": "nepali_traditional_dress",
+      "patterns": ["What is the traditional dress of Nepal?", "Nepali national dress", "What do people wear in Nepal?"],
+      "responses": ["The traditional dress for men is 'Daura Suruwal' and for women it's 'Gunyo Cholo' or 'Sari'. Modern clothing is also common in cities."]
+    },
+    {
+      "tag": "homestay_vs_hotel",
+      "patterns": ["Should I choose a homestay or hotel in Nepal?", "Hotel or homestay better?", "Difference between hotel and homestay?"],
+      "responses": ["Homestays offer cultural immersion and local experiences, while hotels provide more privacy and comfort. Choose based on your travel style."]
+    },
+    {
+      "tag": "public_holidays",
+      "patterns": ["Public holidays in Nepal", "When are holidays in Nepal?", "Holiday list Nepal"],
+      "responses": ["Major holidays include Dashain, Tihar, Holi, and Nepali New Year. Dates vary each year based on the lunar calendar."]
+    },
+    {
+      "tag": "eco_tourism",
+      "patterns": ["Is Nepal good for eco-tourism?", "Eco-friendly travel in Nepal", "Nature tourism Nepal"],
+      "responses": ["Yes, Nepal promotes eco-tourism through sustainable trekking, conservation areas, and community-based tourism."]
+    },
+    {
+      "tag": "wifi_availability",
+      "patterns": ["Is there Wi-Fi in trekking areas?", "Internet access on treks", "Wi-Fi on the Everest trek?"],
+      "responses": ["Wi-Fi is available in some trekking lodges, especially on popular routes like Everest and Annapurna, but speed can be slow."]
+    },
+    {
+      "tag": "religions_in_nepal",
+      "patterns": ["What religions are followed in Nepal?", "Nepali religious diversity", "Religions practiced in Nepal"],
+      "responses": ["Hinduism and Buddhism are the main religions in Nepal. There are also Muslim, Christian, and Kirat communities."]
+    },
+    {
+      "tag": "volunteering_nepal",
+      "patterns": ["Can I volunteer in Nepal?", "Volunteer opportunities in Nepal", "Nepal volunteering programs"],
+      "responses": ["Yes, you can volunteer in teaching, healthcare, or environmental projects. Many NGOs and organizations offer short and long-term programs."]
+    },
+    {
+      "tag": "budget_for_trip",
+      "patterns": ["How much money do I need for a Nepal trip?", "Nepal trip budget", "Cost of traveling in Nepal"],
+      "responses": ["A backpacker can manage with $20–30/day, while mid-range travelers may need $50–100/day depending on accommodation and transport."]
+    },
+    {
+      "tag": "local_etiquette",
+      "patterns": ["Cultural do's and don'ts in Nepal", "Etiquette in Nepal", "How to behave in Nepal?"],
+      "responses": ["Remove shoes before entering homes and temples, use your right hand for giving, and avoid public displays of affection."]
+    },
+    {
+      "tag": "phone_sim_card",
+      "patterns": ["Can I buy a SIM card in Nepal?", "Best SIM for tourists in Nepal", "Nepal mobile internet"],
+      "responses": ["Yes, you can get a SIM card at the airport or any telecom office with your passport. Ncell and NTC are the main providers."]
+    },
+     {
+      "tag": "photography_spots",
+      "patterns": ["Best photography spots in Nepal", "Where to take good photos in Nepal?", "Photo-worthy places in Nepal"],
+      "responses": ["Try Sarangkot for sunrise, Boudhanath Stupa, Poon Hill, Bhaktapur Durbar Square, and Mount Everest viewpoints."]
+    },
+    {
+      "tag": "nepal_time_zone",
+      "patterns": ["What is the time zone of Nepal?", "Nepal current time", "Time difference with Nepal"],
+      "responses": ["Nepal is in Nepal Standard Time (NPT), which is UTC +5:45."]
+    },
+    {
+      "tag": "local_guide_language",
+      "patterns": ["Do guides speak English in Nepal?", "Can I find an English-speaking guide?", "Language of local guides"],
+      "responses": ["Yes, most licensed guides speak English and some speak other major languages like German, Japanese, and Chinese."]
+    },
+    {
+      "tag": "donation_ethics",
+      "patterns": ["Should I give money to beggars in Nepal?", "Ethical donations in Nepal", "How to help poor people in Nepal?"],
+      "responses": ["It's better to donate to trusted local organizations rather than giving directly to individuals on the street."]
+    },
+    {
+      "tag": "group_tours",
+      "patterns": ["Are group tours available in Nepal?", "Can I join a group trek?", "Nepal guided group tours"],
+      "responses": ["Yes, many agencies offer group treks and tours which are great for meeting people and reducing costs."]
+    },
+    {
+      "tag": "trekking_offseason",
+      "patterns": ["Can I trek during the monsoon?", "Offseason trekking in Nepal", "Is it okay to trek in summer?"],
+      "responses": ["Monsoon season (June–August) is less ideal due to rain and leeches, but some regions like Upper Mustang are dry year-round."]
+    },
+    {
+      "tag": "female_guide",
+      "patterns": ["Can I hire a female guide in Nepal?", "Women guides in Nepal", "Female trekking guides"],
+      "responses": ["Yes, there are female trekking guides available through special women-led travel companies or guide associations."]
+    },
+    {
+      "tag": "airport_transport",
+      "patterns": ["How do I get from the airport to my hotel in Kathmandu?", "Transport from Kathmandu airport", "Taxi from TIA"],
+      "responses": ["You can take prepaid taxis at Tribhuvan International Airport or request hotel pickups. Ride-sharing apps like Pathao are also available."]
+    },
+    {
+      "tag": "bike_rentals",
+      "patterns": ["Can I rent a bike in Nepal?", "Bike rentals in Kathmandu or Pokhara", "Motorbike for rent"],
+      "responses": ["Yes, you can rent bicycles and motorbikes in major cities. Bring your license and wear a helmet."]
+    },
+    {
+      "tag": "trekking_difficulty",
+      "patterns": ["Which treks are easy in Nepal?", "Trekking difficulty levels", "Beginner-friendly treks"],
+      "responses": ["Poon Hill, Ghandruk, and Nagarkot hikes are great for beginners. Everest and Annapurna require more stamina and preparation."]
+    },
+     {
+      "tag": "language_learning",
+      "patterns": ["Can I learn Nepali before my trip?", "Basic Nepali phrases", "Learn Nepali for travel"],
+      "responses": ["Yes! Learning basic phrases like 'Namaste' (Hello) and 'Dhanyabad' (Thank you) is appreciated. You can find free apps or guides online."]
+    },
+    {
+      "tag": "temple_rules",
+      "patterns": ["What are the rules for visiting temples?", "Can I enter temples in Nepal?", "Temple etiquette in Nepal"],
+      "responses": ["Remove your shoes, dress modestly, and ask before taking photos. Non-Hindus may not be allowed in certain temple areas."]
+    },
+    {
+      "tag": "travel_insurance",
+      "patterns": ["Do I need travel insurance for Nepal?", "Insurance for trekking", "Travel insurance requirements"],
+      "responses": ["Travel insurance is highly recommended, especially for trekking. Make sure it covers high-altitude rescue if you're going to the mountains."]
+    },
+    {
+      "tag": "budget_airlines",
+      "patterns": ["Are there budget airlines to Nepal?", "Cheap flights to Kathmandu", "Low-cost airlines to Nepal"],
+      "responses": ["Budget airlines operate from India, the Middle East, and Southeast Asia. Compare fares online for deals."]
+    },
+    {
+      "tag": "power_outage",
+      "patterns": ["Is electricity stable in Nepal?", "Power cuts in Nepal", "Load shedding status"],
+      "responses": ["Power supply has improved, but occasional outages happen. Most hotels have backup or solar power."]
+    },
+    {
+      "tag": "electricity_adapter",
+      "patterns": ["What plug type is used in Nepal?", "Electric socket in Nepal", "Do I need an adapter?"],
+      "responses": ["Nepal uses Type C, D, and M plugs with 230V supply. It's good to bring a universal travel adapter."]
+    },
+    {
+      "tag": "mobile_apps",
+      "patterns": ["Useful apps for Nepal travel?", "Best apps for tourists in Nepal", "Travel apps Nepal"],
+      "responses": ["Useful apps include Pathao (rides), Foodmandu (delivery), Tootle (bike rides), and Daraz (shopping). Google Maps is helpful too."]
+    },
+    {
+      "tag": "hiking_near_kathmandu",
+      "patterns": ["Hiking near Kathmandu", "Easy hikes from Kathmandu", "Short treks around Kathmandu"],
+      "responses": ["Try Shivapuri, Champadevi, Nagarkot, and Phulchowki for beautiful short hikes near the capital."]
+    },
+    {
+      "tag": "emergency_contacts",
+      "patterns": ["Emergency numbers in Nepal", "What if I need help in Nepal?", "Nepal police or ambulance number"],
+      "responses": ["Dial 100 for police, 102 for ambulance, and 1144 for tourist police. Save your embassy contact as well."]
+    },
+    {
+      "tag": "weather_pokhara",
+      "patterns": ["Weather in Pokhara", "Pokhara temperature now", "Pokhara climate"],
+      "responses": ["Pokhara has a subtropical climate with warm summers and mild winters. It’s often cloudy and gets more rainfall than Kathmandu."]
+    },
+        {
+      "tag": "local_handicrafts",
+      "patterns": ["What handicrafts can I buy in Nepal?", "Nepali handmade goods", "Traditional crafts in Nepal"],
+      "responses": ["Popular handicrafts include singing bowls, thangka paintings, wooden masks, prayer flags, and woolen items."]
+    },
+    {
+      "tag": "bike_tours",
+      "patterns": ["Are bike tours available in Nepal?", "Cycle tour options", "Mountain biking in Nepal"],
+      "responses": ["Yes, Nepal offers scenic bike tours around Kathmandu Valley, Pokhara, Mustang, and the Annapurna region."]
+    },
+    {
+      "tag": "music_dance",
+      "patterns": ["Traditional music of Nepal?", "Nepali folk dance", "Cultural performances in Nepal"],
+      "responses": ["Nepali music includes instruments like the madal and sarangi. Folk dances like Lakhey and Maruni are performed at festivals."]
+    },
+    {
+      "tag": "vegetarian_food",
+      "patterns": ["Is vegetarian food available in Nepal?", "Vegetarian options in Nepal", "Vegan food in Nepal"],
+      "responses": ["Yes, vegetarian food is widely available. Dal bhat, momo (veg), and other dishes cater to vegetarians and vegans."]
+    },
+    {
+      "tag": "public_transport_fares",
+      "patterns": ["How much does public transport cost?", "Bus fare in Nepal", "Cost of local transport"],
+      "responses": ["Public transport is cheap in Nepal. Local buses can cost under NPR 50, while taxis in cities may start at NPR 300."]
+    },
+    {
+      "tag": "bhaktapur_visit",
+      "patterns": ["What to see in Bhaktapur?", "Bhaktapur tourist attractions", "Is Bhaktapur worth visiting?"],
+      "responses": ["Bhaktapur is famous for its Durbar Square, pottery square, temples, and medieval architecture. A UNESCO World Heritage site worth exploring."]
+    },
+    {
+      "tag": "internet_sim",
+      "patterns": ["Can I use mobile internet in Nepal?", "How fast is internet in Nepal?", "4G SIM Nepal"],
+      "responses": ["Yes, 4G mobile internet is available through Ncell and NTC. Speeds are good in cities and towns."]
+    },
+    {
+      "tag": "himalayan_view",
+      "patterns": ["Where can I see the Himalayas?", "Best Himalayan views in Nepal", "Mountains to see in Nepal"],
+      "responses": ["Great views of the Himalayas are from Nagarkot, Sarangkot, Poon Hill, Gokyo Ri, and Everest Base Camp."]
+    },
+    {
+      "tag": "tipping_custom",
+      "patterns": ["Should I tip in Nepal?", "Tipping in restaurants or treks", "Is tipping expected in Nepal?"],
+      "responses": ["Tipping is appreciated but not mandatory. In treks, it’s customary to tip guides and porters. Round up the bill in restaurants if service is good."]
+    },
+    {
+      "tag": "hindu_pilgrimage_sites",
+      "patterns": ["Hindu religious places in Nepal", "Pilgrimage sites in Nepal", "Holy temples in Nepal"],
+      "responses": ["Pashupatinath, Muktinath, Janakpur, and Gosainkunda are famous Hindu pilgrimage destinations in Nepal."]
+    },
+    {
+      "tag": "airport_customs",
+      "patterns": ["What items can I bring into Nepal?", "Nepal customs rules", "Restricted items at airport"],
+      "responses": ["You can bring personal items, limited electronics, and declared currency. Avoid bringing drones or large amounts of alcohol without permission."]
+    },
+    {
+      "tag": "local_drinks",
+      "patterns": ["What are popular drinks in Nepal?", "Traditional Nepali beverages", "Local alcohol in Nepal"],
+      "responses": ["Try local drinks like Chhaang, Raksi, butter tea, and Nepali tea. Be cautious with strong homemade alcohol."]
+    },
+    {
+      "tag": "clothing_tips",
+      "patterns": ["What clothes should I pack for Nepal?", "What to wear in Nepal?", "Nepal clothing guide"],
+      "responses": ["Pack layers for changing weather. Modest clothing is recommended in villages and religious sites. Bring warm clothes if trekking."]
+    },
+    {
+      "tag": "janakpur_info",
+      "patterns": ["Tell me about Janakpur", "Why visit Janakpur?", "Janakpur tourist sites"],
+      "responses": ["Janakpur is the birthplace of Sita and a Hindu pilgrimage site. Visit the Janaki Temple and experience Mithila culture."]
+    },
+    {
+      "tag": "festival_holi",
+      "patterns": ["When is Holi in Nepal?", "What is Holi festival?", "Can tourists celebrate Holi?"],
+      "responses": ["Holi, the festival of colors, is celebrated in March. Tourists are welcome to join the fun, especially in Kathmandu and Pokhara."]
+    },
+    {
+      "tag": "eco_bags",
+      "patterns": ["Can I use plastic bags in Nepal?", "Is plastic banned in Nepal?", "Eco policies Nepal"],
+      "responses": ["Single-use plastics are banned in some regions. Bring reusable bags and bottles to support eco-tourism."]
+    },
+    {
+      "tag": "snowfall_spots",
+      "patterns": ["Where can I see snow in Nepal?", "Snowfall areas in Nepal", "Best time for snow in Nepal"],
+      "responses": ["You can find snow in places like Kalinchowk, Phulchowki, and higher elevations during winter (Dec–Feb)."]
+    },
+    {
+      "tag": "yoga_retreats",
+      "patterns": ["Can I join a yoga retreat in Nepal?", "Best yoga centers Nepal", "Spiritual yoga retreats"],
+      "responses": ["Yes, yoga retreats are offered in Kathmandu, Pokhara, and in monasteries. Popular among those seeking wellness and mindfulness."]
+    },
+    {
+      "tag": "heritage_walks",
+      "patterns": ["Are there heritage walks in Nepal?", "Cultural walking tours", "Walking tour Kathmandu"],
+      "responses": ["Heritage walks are popular in Kathmandu, Bhaktapur, and Patan. Guides share stories about temples, palaces, and local life."]
+    },
+    {
+      "tag": "nepal_flag",
+      "patterns": ["What does the Nepal flag mean?", "Nepal flag info", "Why is the Nepal flag unique?"],
+      "responses": ["Nepal's flag is the only non-rectangular flag. The two triangles represent the Himalayas and the two major religions: Hinduism and Buddhism."]
+    },
+     {
+      "tag": "weather_monsoon",
+      "patterns": ["What’s the weather like during monsoon?", "Is it okay to visit Nepal in monsoon?", "Nepal in rainy season"],
+      "responses": ["Monsoon in Nepal runs from June to August with heavy rainfall, especially in the lowlands. Some treks like Upper Mustang remain dry."]
+    },
+    {
+      "tag": "helicopter_tours",
+      "patterns": ["Can I take a helicopter tour in Nepal?", "Helicopter to Everest", "Scenic heli rides in Nepal"],
+      "responses": ["Yes! Helicopter tours to Everest Base Camp, Annapurna Base Camp, and Gosaikunda are available for quick and scenic experiences."]
+    },
+    {
+      "tag": "mountain_names",
+      "patterns": ["What are the highest mountains in Nepal?", "List of famous mountains", "Name of 8000m peaks in Nepal"],
+      "responses": ["Nepal has 8 of the world’s 14 highest peaks over 8000m, including Everest, Lhotse, Makalu, Cho Oyu, Dhaulagiri, Manaslu, Annapurna, and Kanchenjunga."]
+    },
+    {
+      "tag": "wildlife_species",
+      "patterns": ["What animals can I see in Nepal?", "Wildlife in national parks", "Are there tigers in Nepal?"],
+      "responses": ["Nepal is home to rhinos, Bengal tigers, red pandas, elephants, snow leopards, and over 800 bird species."]
+    },
+    {
+      "tag": "nepali_calendar",
+      "patterns": ["Does Nepal follow a different calendar?", "What is the Nepali calendar?", "Nepali year vs AD"],
+      "responses": ["Nepal uses the Bikram Sambat (BS) calendar, which is about 56.7 years ahead of the Gregorian calendar (AD)."]
+    },
+    {
+      "tag": "waste_disposal",
+      "patterns": ["How to dispose of waste in Nepal?", "Recycling in Nepal", "Trash management on treks"],
+      "responses": ["Carry your trash, especially plastic, in remote areas. Use bins in cities. Some treks have eco-guidelines and waste collection zones."]
+    },
+    {
+      "tag": "safety_night",
+      "patterns": ["Is it safe to walk at night in Nepal?", "Night safety in Kathmandu", "Walking alone after dark"],
+      "responses": ["Major cities are fairly safe, but avoid dark or deserted areas. Use taxis or rideshare apps for night travel."]
+    },
+    {
+      "tag": "water_safety",
+      "patterns": ["Is tap water safe to drink in Nepal?", "Can I drink the water?", "Water safety tips"],
+      "responses": ["Tap water is not safe to drink. Always use bottled or filtered water, or carry purification tablets on treks."]
+    },
+    {
+      "tag": "night_bus",
+      "patterns": ["Are there night buses in Nepal?", "Overnight travel by bus", "Bus from Kathmandu to Pokhara at night"],
+      "responses": ["Yes, night buses are available between major cities like Kathmandu, Pokhara, and Birgunj. Book with reputable companies for safety."]
+    },
+    {
+      "tag": "border_crossing",
+      "patterns": ["Can I enter Nepal by land?", "Land borders open?", "Crossing Nepal border from India"],
+      "responses": ["Yes, there are open land border crossings from India like Sunauli and Raxaul. Carry proper visa and ID."]
+    }
+]
+}
+
